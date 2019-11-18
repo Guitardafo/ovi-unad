@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Etapas</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo1.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<script type="text/javascript" src="Java/eventos.js"></script>	
+	<link rel="icon" href="IMG/logo1.ico">	
+	</head>
+<body>
+<header>
+	<img src="IMG/logoUNAD2015.png" class="logoUNAD2015">
+	<div class="titulo"><h1>Programación Web 2</h1></div>
+</header>
+<nav>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Inicio</a>
+  <a href="etapas.html">Etapas</a>
+  <div class="dropdown">
+    <button class="dropbtn">Material de Lectura 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="lectura1.html">Lectura 1</a>
+      <a href="lectura2.html">Lectura 2</a>
+      <a href="lectura3.html">Lectura 3</a>
+      <a href="lectura4.html">Lectura 4</a>
+      <a href="lectura5.html">Lectura 5</a>
+    </div>
+  </div>
+   <div class="dropdown">
+    <button class="dropbtn">Material Multimedia 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="video1.html">Video 1</a>
+      <a href="video2.html">Video 2</a>
+      <a href="video3.html">Video 3</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+    <button class="dropbtn">Actividades
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="actividad1.html">Actividad 1</a>
+      <a href="actividad2.html">Actividad 2</a>
+      <a href="actividad3.html">Actividad 3</a>
+    </div>
+  </div>  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <a href="autores.html">Autores</a>
+  </div>
+</nav>
+<section class="contenedor">
+	<section>
+	<div class="titulo2"><h1>Etapas para el desarrollo de un página Web.</h1></div>
+	</section>
+	<article>
+		En el diagrama que se muestra a continuación, se hace una breve descripción de las actividades que hay que tener en cuenta al momento de crear un sitio web, en función a las necesidades particulares que puede llegar a tener un cliente o empresa.
+	</article>
+	<section class="tabladiagrama">
+		<div style="overflow-x: auto;">
+		<table class="diagrama">
+			<tr>
+				<th>
+					<a href="javascript:abrir()"><button class="button button1">Planificar</button></a>
+					<div id="Modala1" class="modal">
+						<div class="modal-content">
+							<div class="close"><a href="javascript:cerrar()"><img src="IMG/cancel.png"></a></div>
+							<div class="titulomodal"><h1>Planificar</h1></div>
+							<div class="contenp"><p>En esta primera fase de desarrollo, se deben identificar las necesidades del cliente o empresa a la cual se le creará un sitio web. Se debe reunir toda la información posible de su actividad principal, para darle un nombre apropiado que describa dicha actividad y comprobar la disponibilidad de este dominio en la red; también, se debe tener en cuenta los recursos necesarios para la elaboración del sitio web y delimitar los tiempos necesarios para culminar cada etapa.</p></div>
+							<section class="medidas"> 
+							<img src="IMG/planning.jpg" class="imagenmodal" width="400" height="250">
+							<p>Senne Hoekman (Mayo de 2018)</p>
+						</section>
+						</div>
+					</div>
+					</th>
+			</tr>
+			<tr>
+				<th><div class="triangle-right"></div></th>
+				<th>
+				<a href="javascript:aparecer()"><button class="button button2">Arquitectura<br>del Sitio</button></a>
+					<div id="Modalb2" class="modal">
+						<div class="modal-content">
+							<div class="close"><a href="javascript:desaparecer()"><img src="IMG/cancel.png"></a></div>
+							<div class="titulomodal"><h1>Arquitectura del Sitio</h1></div>
+							<div class="contenp"><p>En esta fase de desarrollo, se debe definir el tipo de navegación que tendrá el sitio, de acuerdo a las necesidades anteriormente identificadas. Adicionalmente, se deben establecer tanto el modelo relacional de la base de datos, como las llaves primarias y foraneas que permiten la correcta gestión y administración, de toda la información que transita por el sitio web.</p></div>
+							<section class="medidas">
+							<img src="IMG/DataBase.jpg" class="imagenmodal" width="400" height="250">
+							<p>Pixabay (Diciembre de 2013)</p>
+						</section>
+						</div>
+					</div>
+				</th>	
+			</tr>
+			<tr>
+				<th></th>
+				<th><div class="triangle-right"></div></th>
+				<th>
+				<a href="javascript:aceptar()"><button class="button button3">Diseño</button></a>
+					<div id="Modalc3" class="modal">
+						<div class="modal-content">
+							<div class="close"><a href="javascript:rechazar()"><img src="IMG/cancel.png"></a></div>
+							<div class="titulomodal"><h1>Diseño</h1></div>
+							<div class="contenp"><p>En esta etapa del desarrollo se definen todos los recursos y herramientas necesarias para la elaboración del sitio web, tales como: la paleta de colores, la tipografía, las animaciones y los elementos gráficos, teniendo en cuenta la disposición de estos, sin pasar por alto la legislación local, que protege los derechos de autor al momento de utilizar material ajeno a nuestra autoría. Es de suma importancia elaborar un Mockup que muestre una aproximación al resultado final, antes de invertir tiempo y recursos, teniendo en cuenta que este boceto puede presentar variaciones, de acuerdo a las observaciones hechas por el cliente.</p></div>
+							<section class="medidas">
+							<img src="IMG/planeación.jpg" class="imagenmodal" width="400" height="250">
+							<p>picjumbo.com (Julio de 2016)</p>
+						</section>
+						</div>
+					</div>
+				</th>
+			</tr>
+			<tr>
+				<th></th>
+				<th></th>
+				<th><div class="triangle-right"></div></th>
+				<th>
+				<a href="javascript:open()"><button class="button button4">Programar</button></a>
+					<div id="Modald4" class="modal">
+						<div class="modal-content">
+							<div class="close"><a href="javascript:close()"><img src="IMG/cancel.png"></a></div>
+							<div class="titulomodal"><h1>Programar</h1></div>
+							<div class="contenp"><p>En esta etapa de la elaboración, se deben definir los lenguajes de programación y el software con el cual se va a gestionar la base de datos de nuestro sitio web. <br>Adicionalmente, se deben tener en cuenta todas las palabras claves e identificadores que evaluan los motores de búsqueda en la red, con el fin de posicionar el sitio web frente a los demás sitios que compartan características similares, aumentando la probabilidad de visitas al mismo. .</p></div>
+							<section class="medidas">
+							<img src="IMG/diseño.jpg" class="imagenmodal" width="400" height="250">
+							<p>Pixabay (Enero de 2017)</p>
+						</section>
+						</div>
+					</div>
+				</th>
+			</tr>
+			<tr>
+				<th><p style="font-style: oblique; text-decoration: underline;">Haz click sobre cualquier cuadro</p>
+					<img src="IMG/touch.png" class="click"></th>
+				<th></th>
+				<th></th>
+				<th><div class="triangle-right"></div></th>
+				<th>
+				<a href="javascript:visible()"><button class="button button5">Evaluar</button></a>
+					<div id="Modale5" class="modal">
+						<div class="modal-content">
+							<div class="close"><a href="javascript:invisible()"><img src="IMG/cancel.png"></a></div>
+							<div class="titulomodal"><h1>Evaluar</h1></div>
+							<div class="contenp"><p>En esta etapa del proceso, se deben probar todos los enlaces que contiene el sitio web, depurar el código en general, buscando posibles redundancias o líneas de código que no se esten ejecutando de manera adecuada en los distintos navegadores y/o sistemas operativos.<br> Es recomendable el tener un sitio especializado para realizar todas las pruebas necesarias de manera local, antes de subir el proyecto a un Hosting.</p></div>
+							<section class="medidas">
+							<img src="IMG/Test.jpg" class="imagenmodal" width="400" height="250">
+							<p>Pixabay (Julio de 2019)</p>
+						</section>
+						</div>
+					</div>
+				</th>
+			</tr>
+			<tr>
+				<th>
+				</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th><div class="triangle-right"></div></th>
+				<th>
+				<a href="javascript:ok()"><button class="button button6">Mantenimiento</button></a>
+					<div id="Modalf6" class="modal">
+						<div class="modal-content">
+							<div class="close"><a href="javascript:worst()"><img src="IMG/cancel.png"></a></div>
+							<div class="titulomodal"><h1>Mantenimiento</h1></div>
+							<div class="contenp"><p>Para esta etapa final, se debe anexar junto con la entrega del sitio oficial, un plan de mantenimiento en el cual se debe especificar la frecuencia y los procesos necesarios para optimizar los contenidos, con respecto a los diferentes navegadores online que existen y mejorar la experiencia del usuario final, al momento de interactuar con el sitio web.</p></div>
+							<section class="medidas">
+							<img src="IMG/mantenimiento.jpg" class="imagenmodal" width="400" height="250">
+							<p>fauxels (Octubre de 2019)</p>
+						</section>
+						</div>
+					</div>
+				</th>
+			</tr>			
+		</table>
+		</div>		
+	</section>
+</section>
+<footer>
+	<table class="undo">
+		<tr>
+		<th><img src="IMG/logoblanco2.jpg" class="logo2"></th>
+	<th><div class="diseñado"><p>Diseñado por: David Fernando Orjuela Soriano
+		<br> Noviembre de 2019</p></div></th>
+	<th><a href="index.html"><div class="triangle2"></div></a></th>
+	<th><a href="lectura1.html"><div class="triangle1"></div></a></th>
+</tr>
+</table>
+</footer>
+</body>
+</html>

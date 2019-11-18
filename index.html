@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Programación Web 2</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<script type="text/javascript" src="Java/eventos.js"></script>	
+	<link rel="icon" href="IMG/logo1.ico">
+	</head>
+<body>
+<header>
+	<img src="IMG/logoUNAD2015.png" class="logoUNAD2015">
+	<div class="titulo"><h1>Programación Web 2</h1></div>
+</header>
+<nav>
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Inicio</a>
+  <a href="etapas.html">Etapas</a>
+  <div class="dropdown">
+    <button class="dropbtn">Material de Lectura 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="lectura1.html">Lectura 1</a>
+      <a href="lectura2.html">Lectura 2</a>
+      <a href="lectura3.html">Lectura 3</a>
+      <a href="lectura4.html">Lectura 4</a>
+      <a href="lectura5.html">Lectura 5</a>
+    </div>
+  </div>
+   <div class="dropdown">
+    <button class="dropbtn">Material Multimedia 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="video1.html">Video 1</a>
+      <a href="video2.html">Video 2</a>
+      <a href="video3.html">Video 3</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+    <button class="dropbtn">Actividades
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="actividad1.html">Actividad 1</a>
+      <a href="actividad2.html">Actividad 2</a>
+      <a href="actividad3.html">Actividad 3</a>
+    </div>
+  </div>  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <a href="autores.html">Autores</a>
+  <button id="contador" class="contar"></button>
+</div>
+</nav>
+<section class="contenedor">
+	<section>
+		<div class="tituloinicio"><h1>Inicio</h1></div>
+	</section>
+	<div class="row">
+  <div class="column side">
+    <p class="intro">El siguiente Objeto Virtual de Información O.V.I. tiene como finalidad, brindar una breve explicación acerca de las etapas que se deben desarrollar, para la creación de un sitio web profesional. <br><br> Dentro del material incluido, encontraremos varias lecturas y recursos multimedia, en los cuales se describen los conceptos básicos, acerca de lo que es un sitio web, las características que este sitio debe tener, para posicionarse en internet y cumplir satisfactoriamente con las necesidades que pueda llegar a tener un cliente, producto o empresa. <br><br> Adicionalmente, encontraremos una serie de actividades con las cuales podemos afianzar, los conocimientos adquiridos durante el estudio del presente O.V.I.</p>
+  </div>
+  <div class="column middle"><p class="intro1"></p></div>
+  <div class="column side">
+	<div class="twitter">
+		<a class="twitter-timeline" data-width="380" data-height="500" href="https://twitter.com/UniversidadUNAD?s=20">Tweets by UniversidadUNAD</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+</div>
+</div>
+</section>
+<footer>
+	<table class="undo">
+		<tr>
+		<th><img src="IMG/logoblanco2.jpg" class="logo2"></th>
+	<th><div class="diseñado"><p>Diseñado por: David Fernando Orjuela Soriano
+		<br> Noviembre de 2019</p></div></th>
+	<th><a href="etapas.html"><div class="triangle1"></div></a></th>
+</tr>
+</table>
+</footer>
+<script type="text/javascript">
+    var uno = 0;
+if(localStorage.pagecount){
+  localStorage.pagecount=Number(localStorage.pagecount)+1;
+}
+else{
+  localStorage.pagecount=1;
+}
+uno = localStorage.pagecount;
+document.getElementById("contador").innerHTML = uno + " Visitas";
+</script>
+</body>
+</html>

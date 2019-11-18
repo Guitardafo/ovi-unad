@@ -1,0 +1,268 @@
+nav,.contenedor,footer,article,header,.principal,.pricipal2,.pricipal3,aside,.referencia1,.tarjeta{
+	max-width: 90%;
+	margin: auto;
+	font-family: "Franklin Gothic Book", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+header{
+	margin: auto;
+	padding: 30px;
+}
+	.logoUNAD2015{
+	display: inline-block;
+	width: 50%;
+	}
+	.titulo{
+		float: right;
+		position: relative;
+		margin: auto;
+		width: 40%;
+		height: 60px;
+		margin-top: 20px;
+		text-align: center;
+		color: white;
+  		text-decoration-color: #F47920;
+  		text-shadow:  2px 2px 4px #000000;		
+		border-right: 10px solid #F0B429;
+  		background-image: linear-gradient(to right, white, #C4D5FC, #5F7EB3, #005883);   		
+	}
+	.titulo h1 {
+		position: absolute;
+		margin: auto;
+		text-decoration: underline;
+		text-decoration-color: #F47920;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		border:0;		
+	}
+	@media screen and (min-width: 501px) {
+  div.titulo {
+    font-size: 20px;
+		}
+	}
+	@media screen and (max-width: 500px) {
+  div.titulo {
+    font-size: 12px;
+  }
+}
+	.contenedor{
+		text-align: center;
+		border-style: groove;
+		border-radius: 15px;
+		margin-top: 15px;
+		height: 100%;		
+	}
+.tituloinicio{
+	text-align: left;
+	padding: none;
+	margin-left: 60px;
+	font-size: 60px;
+	text-shadow: 2px 2px #F0B429;
+	}
+	@media screen and (min-width: 601px) {
+  div.tituloinicio {
+    font-size: 60px;
+		}
+	}
+	@media screen and (max-width: 600px) {
+  div.tituloinicio {
+    font-size: 30px;
+  }
+}
+.titulo2{
+	text-align: left;
+	margin: 30px 60px;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 2px #F0B429;
+	}
+@media screen and (min-width: 601px) {
+  div.titulo2 {
+    font-size: 30px;
+		}
+	}
+	@media screen and (max-width: 600px) {
+  div.titulo2 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+article{
+	display: inline-block;
+	text-align: justify;
+	font-size: 25px;
+	color: #333333;
+}
+@media screen and (min-width: 601px) {
+  article {
+    font-size: 25px;
+		}
+	}
+	@media screen and (max-width: 600px) {
+  article {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+.column {
+  float: left;
+  margin-left: 50px;
+  padding: 10px;
+}
+.column.side {
+  width: 40%;
+}
+.column.middle {
+  width: 0%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 620px) {
+  .column.side, .column.middle {
+    width: 90%;
+    margin-left: 10px;
+  }
+}
+.intro{
+	font-size: 25px;
+	text-align: justify;
+}
+@media screen and (min-width: 601px) {
+  p.intro {
+    font-size: 25px;
+		}
+	}
+	@media screen and (max-width: 600px) {
+  p.intro {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+.twitter{
+	border:20px solid #005883;
+	border-radius: 10px;
+}
+	.lector{
+		display: inline-block;
+		margin: 30px auto;
+		width: 80%;
+		border:20px solid #333333;
+		border-radius: 10px;
+	}
+	.lector1{
+		display: inline-block;
+		margin: 30px auto;
+		width: 66%;
+		border:20px solid #333333;
+		border-radius: 10px;
+	}
+	.lecturas{
+		width: 100%;
+		position: relative;
+    	padding-bottom: 100%;
+    	padding-top: 30px;
+    	height: 0;
+    	overflow: hidden;
+	}
+	.lecturas iframe{
+		position: absolute;
+		margin: auto;
+    	top:0;
+   		left: 0;
+    	width: 100%;
+   		height: 100%;
+	}
+	th, td {
+  		text-align: center;
+ 		 padding: 4px;
+ 	 }
+	.referencia1{
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+	}
+	.video{
+		display: inline-block;
+		margin: 30px auto;
+		width: 80%;
+		border:20px solid #B8B8B8;
+		border-radius: 10px;
+	}
+	.contain{
+		width: 100%;
+		position: relative;
+    	padding-bottom: 56.25%;
+    	padding-top: 30px;
+    	height: 0;
+    	overflow: hidden;
+	}
+	.contain iframe{
+		position: absolute;
+		margin: auto;
+    	top:0;
+   		left: 0;
+    	width: 100%;
+   		height: 100%;
+   	}
+	footer{
+	height: 90px;
+	margin-top: 30px;
+	background-color: black;
+	border-radius: 10px;
+}
+.logo2{
+	display: inline-block;
+	width: 70%;
+	height: auto;
+}
+.undo{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;	
+}
+	.diseñado{
+		font-style: oblique;
+		color: white;
+		letter-spacing: 1px;
+		word-spacing: 5px;
+	}
+	@media screen and (min-width: 601px) {
+  div.diseñado {
+    font-size: 20px;
+		}
+	}
+	@media screen and (max-width: 600px) {
+  div.diseñado {
+    font-size: 13px;
+  }
+}
+ .triangle1 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 20px solid #333333;
+  border-bottom: 15px solid transparent;
+}
+.triangle2 {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 20px solid #333333;
+  border-bottom: 15px solid transparent;
+}
+.triangle1:hover{
+  border-top: 15px solid transparent;
+  border-left: 20px solid #F0B429;
+  border-bottom: 15px solid transparent;
+}
+.triangle2:hover{
+  border-top: 15px solid transparent;
+  border-right: 20px solid #F0B429;
+  border-bottom: 15px solid transparent;
+}
